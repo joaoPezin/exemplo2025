@@ -28,3 +28,14 @@ nav {
     background: #f7bf24;
     border-radius: 2px
 }
+
+ul.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+ul.menu li a {
+    color: #080000;
+    text-decoration: none;
+}
