@@ -6,4 +6,25 @@
 
 nav {
     background-color: #f109b7a4;
+    padding: 10px 20px;
+    position: relative;
+}]
+
+.menu-toggle {
+    display: none;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 25px;
+    justify-content: space-between;
+}
+
+.hamburger span {
+    width: 4px;
+    background: #f7bf24;
+    border-radius: 2px
 }
