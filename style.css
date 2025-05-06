@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 
-nav {
+nav{
     background-color: #f109b7a4;
     padding: 10px 20px;
     position: relative;
-}]
+}
 
 .menu-toggle {
     display: none;
@@ -25,7 +25,7 @@ nav {
 
 .hamburger span {
     width: 4px;
-    background: #f7bf24;
+    background-color: #ff0909;
     border-radius: 2px
 }
 
