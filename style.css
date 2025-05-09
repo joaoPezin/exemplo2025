@@ -5,7 +5,7 @@
 }
 
 nav{
-    background-color: #f109b7a4;
+    background-color: #ff9100;
     padding: 10px 20px;
     position: relative;
 }
@@ -36,6 +36,6 @@ ul.menu {
 }
 
 ul.menu li a {
-    color: #080000;
+    color: #ff0000;
     text-decoration: none;
 }
