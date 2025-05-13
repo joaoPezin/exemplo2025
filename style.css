@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial sans-serif;
+}
+
 nav{
     background-color: #ff9100;
     padding: 10px 20px;
@@ -38,4 +42,29 @@ ul.menu {
 ul.menu li a {
     color: #ff0000;
     text-decoration: none;
+}
+
+h1{
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+/*Responsivo*/
+@media (max-width:768px){
+    .hamburger{
+        display: flex;
+    }
+    ul.menu {
+        display: none;
+        flex-direction: column;
+        background: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+}
+.menu-toggle:checked
++.hamburger+ul.menu{
+    display: flex;
+}
 }
